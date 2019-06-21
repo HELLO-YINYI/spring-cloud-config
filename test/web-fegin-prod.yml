@@ -1,9 +1,8 @@
-
 spring:
   application:
     name: spring-cloud-web-feign
 server:
-  port: 6602
+  port: 6622
 
 eureka:
   client:
