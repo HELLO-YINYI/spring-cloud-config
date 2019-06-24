@@ -1,6 +1,11 @@
 spring:
   application:
     name: spring-cloud-web-feign
+  boot:
+    admin:
+      client:
+        url: http://localhost:8181
+
 server:
   port: 6602
 
