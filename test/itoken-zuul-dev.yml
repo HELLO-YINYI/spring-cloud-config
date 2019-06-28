@@ -7,6 +7,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8801/eureka/
-
+zuul:
+  routes:
+    test:
+      path: /api/test/**
+      serviceId: itoken-test
 
     
