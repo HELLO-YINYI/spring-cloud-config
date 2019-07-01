@@ -10,7 +10,7 @@ eureka:
 zuul:
   routes:
     test:
-      path: /tet/**
+      path: /test/**
       serviceId: itoken-test
 
     
